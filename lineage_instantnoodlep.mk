@@ -30,3 +30,17 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus8Pro \
     SystemDevice=OnePlus8Pro \
     SystemName=OnePlus8Pro
+
+# Device Flags
+
+# Maintainer name (use "_" for spaces, e.g., "rmp_22" → "rmp 22" in UI)
+AXION_MAINTAINER := Itachi
+
+# Processor name (use "_" for spaces)
+AXION_PROCESSOR := Snapdragon_865
+
+# Define rear camera specs (multiple sensors supported)
+AXION_CAMERA_REAR_INFO := 48,8,48,5
+
+# Define front camera specs
+AXION_CAMERA_FRONT_INFO := 16
